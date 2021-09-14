@@ -347,9 +347,9 @@ if __name__=="__main__":
 	try:
 		ua=open("ua","r").read()
 	except FileNotFoundError: 
+		print("[!] Useragent Not Available")
         print("[!] ITS REALY EFFECT ON YOUR CLONING PERFORMANCE ABOUT OK/CP IDZ")
         print("[!] NOTE SEARCH ON GOOGLE CHROME >MY USER AGENT THEN COPY AND PASTE HERE")
-		print("[!] Useragent Not Available")
 		tll=input("[+] Please Enter Useragent: ")
 		open("ua","a").write(tll)
 		print("[√] Added Successfully\nOn the way to Tool")
