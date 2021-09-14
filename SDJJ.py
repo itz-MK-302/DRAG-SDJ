@@ -347,11 +347,9 @@ if __name__=="__main__":
 	try:
 		ua=open("ua","r").read()
 	except FileNotFoundError: 
-		print("[!] Useragent Not Available")
-        print("[!] ITS REALY EFFECT ON YOUR CLONING PERFORMANCE ABOUT OK/CP IDZ")
-        print("[!] NOTE SEARCH ON GOOGLE CHROME >MY USER AGENT THEN COPY AND PASTE HERE")
-		tll=input("[+] Please Enter Useragent: ")
+		print("\033[1;91m [!] Useragent Not Available")
+		tll=input("\033[1;91m [+] Please Enter Useragent: ")
 		open("ua","a").write(tll)
-		print("[√] Added Successfully\nOn the way to Tool")
+		print("\033[1;92m[√] Added Successfully\nOn the way to Tool")
 		time.sleep(1)
-	logika()
+	SDJGHOST()
