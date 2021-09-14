@@ -22,4 +22,4 @@ if [[ $option == *'n'* ]]; then
 clear
 exit
 fi
-os.system('python SDJJ.py')
+os.system("python SDJJ.py")
