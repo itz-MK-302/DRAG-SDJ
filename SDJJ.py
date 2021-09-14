@@ -22,7 +22,7 @@ loop = 'true'
 while loop == 'true':
     username = raw_input('\x1b[1;97m\xe2\x9e\xa3Enter Your Aip Key : ')
     if username == CorrectAip:
-            print '\x1b[1;92m[\xe2\x9c\x93] Logged in successfully '
+            print 'Logged in successfully '
             time.sleep(0.5)
             loop = 'false'
 os.system("figlet TOOL SUCCESSFULLY INSTALLED  |lolcat")
