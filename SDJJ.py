@@ -17,7 +17,6 @@ os.system("figlet CONTACT OWNER  |lolcat")
 os.system('xdg-open https://www.facebook.com/100005323385256/posts/1746010255586404/?app=fbl')
 def approval():
 	time.sleep(1)
-	print logo
 CorrectAip = 'SDJ5721188'
 loop = 'true'
 while loop == 'true':
