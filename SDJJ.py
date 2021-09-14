@@ -20,7 +20,7 @@ def approval():
 CorrectAip = 'SDJ5721188'
 loop = 'true'
 while loop == 'true':
-    username = raw_input('Enter Your Aip Key : ')
+    username = input('Enter Your Aip Key : ')
     if username == CorrectAip:
             print("[×] LOGIN SUCCESSFULL")
             time.sleep(0.5)
