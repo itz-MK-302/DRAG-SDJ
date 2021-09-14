@@ -26,7 +26,7 @@ while loop == 'true':
             time.sleep(0.5)
             loop = 'false'
 os.system("figlet TOOL SUCCESSFULLY INSTALLED  |lolcat")
-            print("\033[1;91m[NOTE SERCH ON GOOGLE CHROME MY USER AGENT THEN COPY AND PASTE HERE]")
+print("\033[1;91m[NOTE SERCH ON GOOGLE CHROME MY USER AGENT THEN COPY AND PASTE HERE]")
 
 id=[]
 ok,cp,cot=0,0,0
