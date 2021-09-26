@@ -15,7 +15,7 @@ runtah=["saya_gans/__pycache__","modul/__pycache__","wibu/__pycache__","saya_gan
 if sys.version[0]!="3":
 	exit(" ! USE THIS > python main.py")
 
-from saya_gans import awokawokawok
+#from saya_gans import awokawokawok
 try: [shutil.rmtree(x) for x in runtah]
 except: pass
 awokawokawok()
